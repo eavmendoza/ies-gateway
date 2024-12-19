@@ -1,0 +1,11 @@
+set USER [lindex $argv 0]
+set PASS [lindex $argv 0]
+
+spawn ssh -l $USER wab-vitro-01.energy.com.ph
+expect "ssword"
+sleep 1
+send -- "$PASS\r"
+puts -nonewline "Type 'exit' for the script to take over\nShell> "
+while 1 {
+        interact "exit" {puts "User interaction completed.";break}
+}

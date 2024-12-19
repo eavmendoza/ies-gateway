@@ -1,0 +1,22 @@
+sudo apt-get update; sudo-apt get upgrade -y;
+sudo apt install mariadb-server default-mysql-client -y 
+sudo mysql_secure_installation
+sudo mysql
+crete databse edcrpidb
+create user 'edcuser'@'localhost' identified by 'r4ing4ug3';
+
+CREATE TABLE `transactions` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `dt` datetime DEFAULT NULL,
+  `message` varchar(500) DEFAULT NULL,
+  `stat` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`))
+
+sudo apt install python3-pip
+sudo apt install python3-virutalenv
+cd gateway
+
+sudo apt -y install default-mysql-client cmake
+
+pip install --upgrade setuptools wheel
+

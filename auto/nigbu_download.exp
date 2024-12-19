@@ -1,0 +1,28 @@
+#!/usr/bin/expect
+
+interp create -safe safeInterp
+safeInterp invokehidden source gedi_exp.exp
+lassign [safeInterp eval {list $pass $local }] pass local
+
+spawn sftp -oUser=Interactive@Negros-Slope:SSH:mendoza.e-amh?lp wab-vitro-01.energy.com.ph
+
+set timeout 600
+
+set DATE [lindex $argv 0]
+
+expect "mendoza.e-amh's password:"
+send -- "$pass\r"
+expect "login:"
+send -- "ubuntu\r"
+expect "password: "
+send -- "P@ssw0rd\r"
+expect "sftp> "
+send -- "cd downloads\r"
+expect "sftp> "
+send -- "lcd '$local'\r"
+expect "sftp> "
+send -- "get nigbu_logs_network_$DATE.sql\r"
+expect "sftp> "
+send -- "get nigbu_logs_sensors_$DATE.sql\r"
+expect "sftp> "
+send -- "exit\r"

@@ -1,0 +1,394 @@
+this_gateway:
+  remote_db:
+    host: 192.168.0.189
+    username: iesuser2
+    password: Impbrain2019!
+    database: edcslopedb
+    port: 3306
+  gateway:
+    logger_id: 2
+    rainfall_id: 2
+    power_id: 2
+    radio_id: 1
+    freq: 868
+    station_code: TST
+  network:
+    ip_address: 192.168.0.201
+    gateway: 192.168.0.1
+    netmask: 24
+    dns: 8.8.8.8,8.8.8.4
+static:
+  sites:
+    bgbu:
+      gateway: 172.19.154.14
+      host: 172.19.162.115
+      netmask: 28
+      dns: 8.8.8.8,8.8.8.4
+    lgbu:
+      gateway: 172.21.68.120
+      host: 172.21.68.120
+      netmask: 24
+      dns: 8.8.8.8,8.8.8.4
+    nigbu:
+      gateway: 172.22.32.254
+      host: 172.21.152.120
+      netmask: 24
+      dns: 8.8.8.8,8.8.8.4
+    magbu:
+      gateway: 192.168.1.1
+      host: 192.168.1.1
+      netmask: 24
+      dns: 8.8.8.8,192.168.1.1
+    ies:
+      gateway: 192.168.0.1
+      host: 192.168.0.189
+      netmask: 24
+      dns: 8.8.8.8,8.8.8.4
+  server:
+    username: slopeuser
+    password: Acc3lerometer!
+    database: edcslopedb
+  stations:
+    PDH:
+      parent: bgbu
+      name: Pad H
+      ip_address: 172.19.154.4
+      logger_id: 1
+      rainfall_id: 1
+      power_id: 26
+      radio_id: 11
+      freq: 433
+    PDE:
+      parent: bgbu
+      name: Pad E
+      ip_address: 172.19.154.5
+      logger_id: 5
+      rainfall_id: 2
+      power_id: 30
+      radio_id: 10
+      freq: 433
+    CBD:
+      parent: bgbu
+      name: Cawayan Backdoor
+      ip_address: 172.19.154.6
+      logger_id: 9
+      rainfall_id: 3
+      power_id: 34
+      radio_id: 12
+      freq: 433
+    PLI:
+      parent: bgbu
+      name: Palayan Interface
+      ip_address: 172.19.154.7
+      logger_id: 18
+      rainfall_id: 4
+      power_id: 38
+      radio_id: 13
+      freq: 433
+    PRS:
+      parent: bgbu
+      name: Palayan Reduction Station
+      ip_address: 172.19.154.8
+      logger_id: 22
+      rainfall_id: 5
+      power_id: 42
+      radio_id: 14
+      freq: 433
+    LRD:
+      parent: bgbu
+      name: Cawayan Loop Road
+      ip_address: 172.19.154.9
+      logger_id: 26
+      rainfall_id: 6
+      power_id: 46
+      radio_id: 15
+      freq: 433
+    BAR:
+      parent: lgbu
+      name: Base to Admin Road
+      ip_address: 172.21.69.50
+      logger_id: 33
+      rainfall_id: 10
+      power_id: 53
+      radio_id: null
+      freq: 433
+    MUR:
+      parent: lgbu
+      name: Upper Mahiao Road
+      ip_address: 172.21.69.51
+      logger_id: 26
+      rainfall_id: 6
+      power_id: 46
+      radio_id: 21
+      freq: 433
+    MSL:
+      parent: lgbu
+      name: MSL
+      ip_address: 172.21.69.52
+      logger_id: 46
+      rainfall_id: 13
+      power_id: 66
+      radio_id: 20
+      freq: 433
+    KBW:
+      parent: lgbu
+      name: Kagbulakaw
+      ip_address: 172.21.69.53
+      logger_id: 36
+      rainfall_id: 17
+      power_id: 56
+      radio_id: null
+      freq: 433
+    PKS:
+      parent: lgbu
+      name: Purok 7
+      ip_address: 172.21.69.54
+      logger_id: 32
+      rainfall_id: 19
+      power_id: 52
+      radio_id: null
+      freq: 433
+    RDO:
+      parent: lgbu
+      name: RDO
+      ip_address: 172.21.69.55
+      logger_id: 54
+      rainfall_id: 9
+      power_id: 74
+      radio_id: 22
+      freq: 433
+    MTG:
+      parent: lgbu
+      name: Mantugop
+      ip_address: 172.21.69.56
+      logger_id: 54
+      rainfall_id: 9
+      power_id: 74
+      radio_id: null
+      freq: 433
+    MBN:
+      parent: lgbu
+      name: Mamban
+      ip_address: 172.21.69.57
+      logger_id: 31
+      rainfall_id: 8
+      power_id: 51
+      radio_id: null
+      freq: 433
+    MPO:
+      parent: lgbu
+      name: Pad H
+      ip_address: 172.21.69.58
+      logger_id: 42
+      rainfall_id: 11
+      power_id: 54
+      radio_id: null
+      freq: 433
+    HVB:
+      parent: lgbu
+      name: Housing Village to Base 7 Road
+      ip_address: 172.21.69.59
+      logger_id: 35
+      rainfall_id: 12
+      power_id: 55
+      radio_id: null
+      freq: 433
+    PFR:
+      parent: lgbu
+      name: PAD 5R1
+      ip_address: 172.21.69.60
+      logger_id: 30
+      rainfall_id: 7
+      power_id: 50
+      radio_id: null
+      freq: 433
+    MGA:
+      parent: bgbu
+      name: Mahanagdong PP
+      ip_address: 172.21.69.61
+      logger_id: 50
+      rainfall_id: 18
+      power_id: 70
+      radio_id: 23
+      freq: 433
+    SMR:
+      parent: lgbu
+      name: Storage to MN1
+      ip_address: 172.21.69.62
+      logger_id: 38
+      rainfall_id: 15
+      power_id: 58
+      radio_id: 24
+      freq: 433
+    NTE:
+      parent: nigbu
+      name: NJRA
+      ip_address: 172.21.153.1
+      logger_id: 66
+      rainfall_id: 22
+      power_id: 86
+      radio_id: 32
+      freq: 433
+    MLY:
+      parent: nigbu
+      name: Malaunay
+      ip_address: 172.21.153.2
+      logger_id: 62
+      rainfall_id: 21
+      power_id: 82
+      radio_id: 31
+      freq: 433
+    SGD:
+      parent: nigbu
+      name: SG2D
+      ip_address: 172.21.153.3
+      logger_id: 70
+      rainfall_id: 23
+      power_id: 90
+      radio_id: 33
+      freq: 433
+    NJT:
+      parent: nigbu
+      name: NJ3RD
+      ip_address: 172.21.153.4
+      logger_id: 58
+      rainfall_id: 20
+      power_id: 78
+      radio_id: 34
+      freq: 433
+    PNT:
+      parent: nigbu
+      name: Pad N3
+      ip_address: 172.21.153.30
+      logger_id: 177
+      rainfall_id: 31
+      power_id: 103
+      radio_id: 30
+      freq: 433
+    LAG:
+      parent: nigbu
+      name: South Lagunao
+      ip_address: 172.21.153.31
+      logger_id: 189
+      rainfall_id: 32
+      power_id: 76
+      radio_id: 35
+      freq: 433
+    PCO:
+      parent: magbu
+      name: Pad H
+      ip_address: 172.22.32.201
+      logger_id: 74
+      rainfall_id: 24
+      power_id: 22
+      radio_id: 40
+      freq: 433
+    LTC:
+      parent: magbu
+      name: Lower Thru Cut
+      ip_address: 172.22.32.200
+      logger_id: 81
+      rainfall_id: 29
+      power_id: 97
+      radio_id: 42
+      freq: 433
+    MDR:
+      parent: magbu
+      name: Mandarangan
+      ip_address: 172.22.32.202
+      logger_id: 89
+      rainfall_id: 25
+      power_id: 98
+      radio_id: 43
+      freq: 433
+    TCT:
+      parent: magbu
+      name: Thru Cut
+      ip_address: 172.22.32.203
+      logger_id: 85
+      rainfall_id: 27
+      power_id: 96
+      radio_id: 41
+      freq: 433
+    TST:
+      parent: ies
+      name: IES Office Test
+      ip_address: 192.168.0.201
+      logger_id: 2
+      rainfall_id: 2
+      power_id: 2
+      radio_id: 1
+      freq: 868
+    LAO:
+      parent: magbu
+      name: Landslide Area
+      ip_address: 192.168.1.201
+      logger_id: 194
+      rainfall_id: 33
+      power_id: 196
+      radio_id: 45
+      freq: 433
+    PDA:
+      parent: magbu
+      name: Pad A
+      ip_address: 192.168.1.202
+      logger_id: 213
+      rainfall_id: 34
+      power_id: 197
+      radio_id: 46
+      freq: 433
+    KMZ:
+      parent: magbu
+      name: KM 00
+      ip_address: 192.168.1.203
+      logger_id: 214
+      rainfall_id: 35
+      power_id: 198
+      radio_id: 47
+      freq: 433
+    SCO:
+      parent: magbu
+      name: Section 1
+      ip_address: 192.168.1.204
+      logger_id: 215
+      rainfall_id: 36
+      power_id: 199
+      radio_id: 48
+      freq: 433
+    SCT:
+      parent: magbu
+      name: Section 2
+      ip_address: 192.168.1.205
+      logger_id: 216
+      rainfall_id: 37
+      power_id: 200
+      radio_id: 49
+      freq: 433
+    AFO:
+      parent: magbu
+      name: Field Office
+      ip_address: 192.168.1.206
+      logger_id: 217
+      rainfall_id: 38
+      power_id: 201
+      radio_id: 50
+      freq: 433
+    STH:
+      parent: magbu
+      name: Site H
+      ip_address: 172.22.32.204
+      logger_id: 217
+      rainfall_id: 38
+      power_id: 201
+      radio_id: 53
+      freq: 433
+    PRA:
+      parent: magbu
+      name: Pad RA
+      ip_address: 172.22.32.205
+      logger_id: 218
+      rainfall_id: 39
+      power_id: 210
+      radio_id: 54
+      freq: 433
+

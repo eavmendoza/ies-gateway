@@ -1,0 +1,8 @@
+set timeout 300
+set connect /home/ies/gateway/auto/connect_ssh.sh
+#set pass "c8KZJphjy{?\[a-Ns"
+#set pass "JktjSCeTsxb92ndp"
+set pass "89Np7TC4KIU4uqeE"
+# set local /mnt/c/Users/earlm/Downloads/
+set local /home/ies/downloads/
+set work_dir /home/ies/gateway/auto

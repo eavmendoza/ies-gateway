@@ -1,0 +1,41 @@
+[db_local]
+user=edcuser
+pwd=r4ing4ug3
+host=localhost
+port=3306
+schema=edcrpidb
+
+[db_remote]
+user=slopeuser
+pwd=Acc3lerometer!
+host=172.21.152.120
+port=3306
+schema=edcslopedb
+
+[gateway]
+name=APO-LTC
+logger=GTW1
+lorafreq=433.0
+loraid=0
+
+
+[rain]
+pin=18
+name=RG1
+
+[remote_rain]
+names=RG2
+
+[alarm]
+pin=7
+
+[led]
+pin=12
+
+[mqtt]
+key = 512e95bbf3454e099dd0d35b6314741b
+username = ewsdev
+feed = gateway.gatewaytx
+
+[ina219]
+address = 64

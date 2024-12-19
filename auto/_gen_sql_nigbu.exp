@@ -1,0 +1,25 @@
+#!/usr/bin/expect
+
+interp create -safe safeInterp
+safeInterp invokehidden source gedi_exp.exp
+lassign [safeInterp eval {list $timeout $pass}] timeout pass
+
+set delay [lindex $argv 0]
+
+spawn ssh -l Interactive@Negros-Slope:SSH:mendoza.e-amh wab-vitro-01.energy.com.ph
+
+expect "ssword:"
+sleep 1
+send -- "$pass\r"
+expect "login:"
+send -- "ubuntu\r"
+expect "password: "
+send -- "P@ssw0rd\r"
+
+expect "ubuntu"
+send -- "rm -R downloads/nigbu_logs*; bash auto/mysqlbkp_recent.sh $delay\r"
+send -- "P@ssw0rd\r"
+expect "Done"
+send -- "exit\r"
+
+expect eof

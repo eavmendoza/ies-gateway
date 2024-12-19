@@ -1,0 +1,68 @@
+,sensor_id,sensor_name,logger_id,site_name
+0,1,Tilt1,30,PAD 5R1
+1,2,Tilt2,30,PAD 5R1
+2,3,Tilt3,30,PAD 5R1
+3,4,Tilt4,30,PAD 5R1
+4,5,Tilt5,30,PAD 5R1
+5,6,Tilt6,30,PAD 5R1
+6,7,Tilt7,30,PAD 5R1
+7,8,Tilt8,30,PAD 5R1
+8,9,Tilt1,31,Mantugop
+9,10,Tilt2,31,Mantugop
+10,11,Tilt3,31,Mantugop
+11,12,Tilt4,31,Mantugop
+12,13,Tilt5,31,Mantugop
+13,14,Tilt6,31,Mantugop
+14,15,Tilt7,31,Mantugop
+15,16,Tilt8,31,Mantugop
+16,17,Tilt1,32,Purok 7
+17,18,Tilt2,32,Purok 7
+18,19,Tilt3,32,Purok 7
+19,20,Tilt4,32,Purok 7
+20,21,Tilt5,32,Purok 7
+21,22,Tilt6,32,Purok 7
+22,23,Tilt7,32,Purok 7
+23,24,Tilt8,32,Purok 7
+24,25,Tilt1,33,Base 7 to Admin Road
+25,26,Tilt2,33,Base 7 to Admin Road
+26,27,Tilt3,33,Base 7 to Admin Road
+27,28,Tilt4,33,Base 7 to Admin Road
+28,29,Tilt5,33,Base 7 to Admin Road
+29,30,Tilt6,33,Base 7 to Admin Road
+30,31,Tilt7,33,Base 7 to Admin Road
+31,32,Tilt8,33,Base 7 to Admin Road
+32,33,Tilt1,34,Pad 105
+33,34,Tilt2,34,Pad 105
+34,35,Tilt3,34,Pad 105
+35,36,Tilt4,34,Pad 105
+36,37,Tilt5,34,Pad 105
+37,38,Tilt6,34,Pad 105
+38,39,Tilt7,34,Pad 105
+39,40,Tilt8,34,Pad 105
+40,41,Tilt1,35,Housing Village to Base 7 Road
+41,42,Tilt2,35,Housing Village to Base 7 Road
+42,43,Tilt3,35,Housing Village to Base 7 Road
+43,44,Tilt4,35,Housing Village to Base 7 Road
+44,45,Tilt5,35,Housing Village to Base 7 Road
+45,46,Tilt6,35,Housing Village to Base 7 Road
+46,47,Tilt7,35,Housing Village to Base 7 Road
+47,48,Tilt8,35,Housing Village to Base 7 Road
+48,49,Tilt1,36,Kagbulakaw
+49,50,Tilt2,36,Kagbulakaw
+50,51,Tilt3,36,Kagbulakaw
+51,52,Tilt4,36,Kagbulakaw
+52,53,Tilt5,36,Kagbulakaw
+53,54,Tilt6,36,Kagbulakaw
+54,55,Tilt7,36,Kagbulakaw
+55,56,Tilt8,36,Kagbulakaw
+56,57,Tilt1,37,Mamban
+57,58,Tilt2,37,Mamban
+58,59,Tilt3,37,Mamban
+59,60,Tilt4,37,Mamban
+60,61,Tilt5,37,Mamban
+61,62,Tilt6,37,Mamban
+62,63,Tilt7,37,Mamban
+63,64,Tilt8,37,Mamban
+64,65,Tilt1,176,Pad 408
+65,66,Tilt2,176,Pad 408
+66,67,Tilt3,176,Pad 408

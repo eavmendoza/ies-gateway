@@ -1,0 +1,16 @@
+#!/usr/bin/expect
+
+interp create -safe safeInterp
+safeInterp invokehidden source gedi_exp.exp
+lassign [safeInterp eval {list $timeout $connect}] timeout connect
+
+set delay [lindex $argv 0]
+spawn bash $connect magbu
+
+expect "ubuntu"
+send -- "rm -R downloads/magbu_logs*; bash auto/mysqlbkp_recent.sh $delay\r"
+send -- "P@ssw0rd\r"
+expect "Done"
+send -- "exit\r"
+
+expect eof

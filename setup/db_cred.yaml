@@ -1,0 +1,10 @@
+DB:
+  Host: 192.168.0.164
+  DbName: edcslopedb
+  DbName_props: edcslopedb_properties
+  User: rparser
+  Password: $3CsyAh3q33H?+Sw
+  #User: mqtt
+  #Password: JXCbrrwnfFtU
+
+

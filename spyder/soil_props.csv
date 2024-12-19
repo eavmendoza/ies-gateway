@@ -1,0 +1,133 @@
+,sensor_id,sensor_name,logger_id,site_name
+0,49,Soil_Moisture_1,30,PAD 5R1
+1,50,Soil_Moisture_2,30,PAD 5R1
+2,51,Soil_Moisture_3,30,PAD 5R1
+3,52,Soil_Moisture_4,30,PAD 5R1
+4,53,Soil_Moisture_5,30,PAD 5R1
+5,54,Soil_Moisture_6,30,PAD 5R1
+6,55,Soil_Moisture_1,31,Mantugop
+7,56,Soil_Moisture_2,31,Mantugop
+8,57,Soil_Moisture_3,31,Mantugop
+9,58,Soil_Moisture_4,31,Mantugop
+10,59,Soil_Moisture_5,31,Mantugop
+11,60,Soil_Moisture_6,31,Mantugop
+12,61,Soil_Moisture_1,32,Purok 7
+13,62,Soil_Moisture_2,32,Purok 7
+14,63,Soil_Moisture_3,32,Purok 7
+15,64,Soil_Moisture_4,32,Purok 7
+16,65,Soil_Moisture_5,32,Purok 7
+17,66,Soil_Moisture_6,32,Purok 7
+18,67,Soil_Moisture_1,33,Base 7 to Admin Road
+19,68,Soil_Moisture_2,33,Base 7 to Admin Road
+20,69,Soil_Moisture_3,33,Base 7 to Admin Road
+21,70,Soil_Moisture_4,33,Base 7 to Admin Road
+22,71,Soil_Moisture_5,33,Base 7 to Admin Road
+23,72,Soil_Moisture_6,33,Base 7 to Admin Road
+24,73,Soil_Moisture_1,34,Pad 105
+25,74,Soil_Moisture_2,34,Pad 105
+26,75,Soil_Moisture_3,34,Pad 105
+27,76,Soil_Moisture_4,34,Pad 105
+28,77,Soil_Moisture_5,34,Pad 105
+29,78,Soil_Moisture_6,34,Pad 105
+30,79,Soil_Moisture_1,35,Housing Village to Base 7 Road
+31,80,Soil_Moisture_2,35,Housing Village to Base 7 Road
+32,81,Soil_Moisture_3,35,Housing Village to Base 7 Road
+33,82,Soil_Moisture_4,35,Housing Village to Base 7 Road
+34,83,Soil_Moisture_5,35,Housing Village to Base 7 Road
+35,84,Soil_Moisture_6,35,Housing Village to Base 7 Road
+36,85,Soil_Moisture_1,36,Kagbulakaw
+37,86,Soil_Moisture_2,36,Kagbulakaw
+38,87,Soil_Moisture_3,36,Kagbulakaw
+39,88,Soil_Moisture_4,36,Kagbulakaw
+40,89,Soil_Moisture_5,36,Kagbulakaw
+41,90,Soil_Moisture_6,36,Kagbulakaw
+42,91,Soil_Moisture_1,37,Mamban
+43,92,Soil_Moisture_2,37,Mamban
+44,93,Soil_Moisture_3,37,Mamban
+45,94,Soil_Moisture_4,37,Mamban
+46,95,Soil_Moisture_5,37,Mamban
+47,96,Soil_Moisture_6,37,Mamban
+48,98,SMS52,80,Malaunay
+49,105,SMS56,88,Thru Cut
+50,113,SMS073,105,Pad E
+51,114,SMS074,106,Pad E
+52,115,SMS075,107,Pad E
+53,116,SMS076,108,Cawayan Backdoor
+54,117,SMS077,109,Cawayan Backdoor
+55,118,SMS078,110,Cawayan Backdoor
+56,119,SMS079,111,Pad H
+57,120,SMS080,112,Pad H
+58,121,SMS081,113,Palayan Pressure Reduction Station
+59,122,SMS082,114,Palayan Pressure Reduction Station
+60,123,SMS083,115,Palayan Pressure Reduction Station
+61,124,SMS084,116,Palayan Interface
+62,125,SMS085,117,Palayan Interface
+63,126,SMS062,118,Cawayan Loop Road
+64,127,SMS063,119,Cawayan Loop Road
+65,128,SMS064,120,Cawayan Loop Road
+66,129,SMS065,121,Cawayan Loop Road
+67,130,SMS066,122,Cawayan Loop Road
+68,131,SMS067,123,Cawayan Loop Road
+69,132,SMS086,124,Thru Cut
+70,133,SMS087,125,Thru Cut
+71,134,SMS088,126,Pad C1
+72,135,SMS089,127,Pad C1
+73,139,SMS091,144,Upper Mahiao Road
+74,140,SMS092,145,Upper Mahiao Road
+75,141,SMS093,146,Upper Mahiao Road
+76,142,SMS094,147,MSL
+77,143,SMS095,148,MSL
+78,144,SMS096,149,MSL
+79,147,SMS099,152,Palayan Interface
+80,148,SMS100,153,Malaunay
+81,149,SMS101,154,Malaunay
+82,150,SMS102,155,Malaunay
+83,151,SMS103,156,NJ3RD
+84,152,SMS104,157,NJ3RD
+85,153,SMS105,158,NJ3RD
+86,154,SMS118,159,Mandarangan
+87,155,SMS119,160,Mandarangan
+88,156,SMS120,161,Mandarangan
+89,157,SMS106,162,MGA-PP
+90,158,SMS107,163,MGA-PP
+91,159,SMS108,164,RD1
+92,160,SMS109,165,RD1
+93,161,SMS110,166,RD1
+94,162,SMS111,170,SG2D
+95,163,SMS112,171,SG2D
+96,164,SMS113,172,SG2D
+97,165,SMS114,167,NJRA
+98,166,SMS115,168,NJRA
+99,167,SMS116,169,NJRA
+100,169,SMS123,174,Pad C1
+101,170,Soil_Moisture_1,176,Pad 408
+102,171,Soil_Moisture_2,176,Pad 408
+103,172,Soil_Moisture_3,176,Pad 408
+104,173,SMS128,178,N3
+105,174,SMS129,179,N3
+106,175,SMS130,180,N3
+107,176,SMS131,183,Lower Thru Cut
+108,177,SMS132,184,Lower Thru Cut
+109,178,SMS124,185,Thru Cut
+110,182,SMS134,190,South Lagunao
+111,183,SMS135,191,South Lagunao
+112,184,SMS136,192,South Lagunao
+113,185,SMS133,193,Lower Thru Cut
+114,186,SMS137,195,Landslide Area 1
+115,187,SMS138,196,Landslide Area 1
+116,188,SMS139,197,Landslide Area 1
+117,189,SMS140,198,Pad A
+118,190,SMS141,199,Pad A
+119,191,SMS142,200,Pad A
+120,192,SMS143,201,KM 00
+121,193,SMS144,202,KM 00
+122,194,SMS145,203,KM 00
+123,195,SMS146,204,Section 1
+124,196,SMS147,205,Section 1
+125,197,SMS148,206,Section 1
+126,198,SMS149,207,Section 2
+127,199,SMS150,208,Section 2
+128,200,SMS151,209,Section 2
+129,201,SMS152,210,Site H
+130,202,SMS153,211,Site H
+131,203,SMS154,212,Site H

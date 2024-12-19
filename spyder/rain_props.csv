@@ -1,0 +1,38 @@
+,sensor_id,sensor_name,logger_id,site_name
+0,1,RG1,1,Pad H
+1,2,RG1,5,Pad E
+2,3,RG1,9,Cawayan Backdoor
+3,4,RG1,18,Palayan Interface
+4,5,RG1,22,Palayan Pressure Reduction Station
+5,6,RG1,26,Cawayan Loop Road
+6,7,Rain,30,PAD 5R1
+7,8,Rain,31,Mantugop
+8,9,Rain,32,Purok 7
+9,10,Rain,33,Base 7 to Admin Road
+10,11,Rain,34,Pad 105
+11,12,Rain,35,Housing Village to Base 7 Road
+12,13,Rain,36,Kagbulakaw
+13,14,Rain,37,Mamban
+14,15,RG1,38,Storage to MN1 Road
+15,16,RG1,42,Upper Mahiao Road
+16,17,RG1,46,MSL
+17,18,RG1,50,MGA-PP
+18,19,RG1,54,RD1
+19,20,RG1,58,NJ3RD
+20,21,RG1,62,Malaunay
+21,22,RG1,66,NJRA
+22,23,RG1,70,SG2D
+23,24,RG1,74,Pad C1
+24,25,RG1,81,Lower Thru Cut
+25,26,RG1,85,Thru Cut
+26,27,RG1,89,Mandarangan
+27,29,RGE002,175,Pad C1
+28,30,Rain,176,Pad 408
+29,31,RG1,177,N3
+30,32,RG1,189,South Lagunao
+31,33,RG1,194,Landslide Area 1
+32,34,RG1,213,Pad A
+33,35,RG1,214,KM 00
+34,36,RG1,215,Section 1
+35,37,RG1,216,Section 2
+36,38,RG1,217,Site H

@@ -1,0 +1,23 @@
+#!/usr/bin/expect
+
+interp create -safe safeInterp
+safeInterp invokehidden source gedi_exp.exp
+lassign [safeInterp eval {list $pass $local }] pass local
+
+spawn ssh -oUser=Interactive@Negros-Slope:SSH:mendoza.e-amh?lp wab-vitro-01.energy.com.ph
+
+set timeout 600
+
+set DATE [lindex $argv 0]
+
+expect "mendoza.e-amh's password:"
+send -- "$pass\r"
+expect "login:"
+send -- "ubuntu\r"
+expect "password: "
+send -- "P@ssw0rd\r"
+
+puts -nonewline "Type 'exit' for the script to take over\nShell> "
+while 1 {
+        interact "exit" {puts "User interaction completed.";break}
+}

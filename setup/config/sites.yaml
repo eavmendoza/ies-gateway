@@ -1,0 +1,131 @@
+---
+this_gateway:
+  remote_db:
+    host: 192.168.0.189
+    username: iesuser2
+    password: Impbrain2019!
+    database: edcslopedb
+    port: 3306
+  gateway:
+    logger_id: 1
+    rainfall_id: 1
+    power_id: 78
+    radio_id: 45
+    freq: 868
+    station_code: TST
+  network:
+    ip_address: 192.168.0.140
+    gateway: 192.168.0.1
+    netmask: 28
+    dns: 8.8.8.8,8.8.8.4
+static:
+  sites:
+    bgbu:
+      gateway_address: 172.19.154.14
+      host: 172.19.162.115
+      netmask: 28
+    lgbu:
+      gateway_address: 172.21.68.120
+      host: 172.21.68.120
+      netmask: 24
+    nigbu:
+      gateway_address: 172.22.32.254
+      host: 172.21.152.120
+      netmask: 24
+    magbu:
+      gateway_address: 172.22.32.254
+      host: 172.22.31.120
+      netmask: 24
+  server:
+    username: slopeuser
+    password: Acc3lerometer!
+    database: edcslopedb
+  stations:
+    PDH: 
+      parent: bgbu
+      name: "Pad H"
+    PDE: 
+      parent: bgbu
+      name: "Pad E"
+    CBD:     
+      parent: bgbu
+      name: "Cawayan Backdoor"
+    PLI: 
+      parent: bgbu
+      name: "Palayan Interface"
+    PRS: 
+      parent: bgbu
+      name: "Palayan Reduction Station"
+    LRD: 
+      parent: bgbu
+      name: "Cawayan Loop Road"
+    BAR: 
+      parent: lgbu
+      name: "Base to Admin Road"
+    MUR: 
+      parent: lgbu
+      name: "Upper Mahiao Road"
+    MSL: 
+      parent: lgbu
+      name: "MSL"
+    KBW: 
+      parent: lgbu
+      name: "Kagbulakaw"
+    PKS: 
+      parent: lgbu
+      name: "Purok Siyete"
+    RDO: 
+      parent: lgbu
+      name: "RDO"
+    MTG: 
+      parent: lgbu
+      name: "Mantugop"
+    MBN: 
+      parent: lgbu
+      name: "Mamban"
+    MPO: 
+      parent: lgbu
+      name: "Pad H"
+    HVB: 
+      parent: lgbu
+      name: "Housing Village to Base 7 Road"
+    PFR: 
+      parent: lgbu
+      name: "PAD 5R1"
+    MGA: 
+      parent: bgbu
+      name: "Mahanagdong PP"
+    SMR: 
+      parent: lgbu
+      name: "Storage to MN1"
+    NTE: 
+      parent: bgbu
+      name: "NJRA"
+    MLY: 
+      parent: nigbu
+      name: "Malaunay"
+    SGD: 
+      parent: nigbu
+      name: "SG2D"
+    NJT: 
+      parent: nigbu
+      name: "NJ3RD"
+    PNT: 
+      parent: nigbu
+      name: "Pad N3"
+    LAG: 
+      parent: nigbu
+      name: "South Lagunao"
+    PCO: 
+      parent: magbu
+      name: "Pad H"
+    LTC: 
+      parent: magbu
+      name: "Lower Thru Cut"
+    MDR: 
+      parent: magbu
+      name: "Mandarangan"
+    TCT: 
+      parent: magbu
+      name: "Thru Cut"
+

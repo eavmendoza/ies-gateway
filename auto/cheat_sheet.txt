@@ -1,0 +1,27 @@
+scp -oUser=amhmendoza.e@local@bacman_slope:SSH:mendoza.e-amh /mnt/g/Other\ computers/My\ Laptop/slopemonitoring-gateway/data_parser.py wab-vitro-01.energy.com.ph:/home/amhmendoza.e/gateway/.
+
+sudo mysql -uroot edcslopedb -e "update message_transactions set error_parse_datetime=NULL where message like '%,DTM%';"
+
+sudo mysql -uroot edcslopedb "update message_transactions set message = replace(message, 'LI', 'PI') where message like 'LI%';"
+
+sudo mysql -uroot edcslopedb -e "update message_transactions set error_parse_datetime=NULL where message like 'pi%';"
+
+scp -oUser=amhmendoza.e@local@bacman_slope:SSH:mendoza.e-amh /mnt/c/Users/earlm/Downloads/flows.json wab-vitro-01.energy.com.ph:/home/amhmendoza.e/downloads/
+
+scp /home/amhmendoza.e/downloads/flows.json ies@pdh:/home/ies/.node-red/projects/gedi-gateway/
+
+sudo mysql -uroot edcrpidb -e "select dt,message from transactions order by id desc limit 10"
+
+
+SELECT logger.id, sensor.id FROM business_units AS bu, sites AS site, loggers AS logger, {sensor_table} AS sensor WHERE bu.id = 1 AND site.id = 1 AND logger.id = 1 AND bu.code = 'APO' AND site.code = 'PDH' AND sensor.code = 'GTW1' AND sensor.date_deactivated is NULL
+
+sudo mysql -uroot edcslopedb -e "select transaction_datetime, message from message_transactions where message like '%axl112%' order by transaction_datetime desc limit 20;"
+
+sudo mysql -uroot edcslopedb -e "update message_transactions set error_parse_datetime="2010-01-01" where message like 'lc:135%' and transaction_datetime > '2024-04-04 12:00:00' and error_parse_datetime is not null"
+
+"C:\Users\earlm\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/bin/avrdude" "-CC:\Users\earlm\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf" -v -patmega32u4 -cavr109 -PCOM18 -b57600 -D "-Uflash:w:C:\Users\earlm\AppData\Local\Temp\arduino\sketches\0BAAD7CDBAC97C6F61536833024CE2C6/gedi_logger_v4.ino.hex:i"
+
+scp /mnt/c/Users/earlm/Downloads/flows.json ies@192.168.0.201:/home/ies/.node-red/projects
+/gedi-gateway/flows.json
+
+update message_transactions set error_parse_datetime="2010-01-01", parsed_datetime=NULL where message like 'LC:%' and transaction_datetime>'2024-05-01';

@@ -1,0 +1,11 @@
+---
+remote_db: 
+  host: 192.168.0.189
+  username: iesuser2
+  password: Impbrain2019!
+  database: edcslopedb
+  port: 3306
+gateway:
+  logger_id: 1
+  rainfall_id: 1
+  power_id: 26
